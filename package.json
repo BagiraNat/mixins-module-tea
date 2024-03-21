@@ -1,6 +1,6 @@
 {
 	"name": "mixin-module-tea",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "mixins",
 	"main": "index.js",
 	"scripts": {
