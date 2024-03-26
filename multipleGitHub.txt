@@ -1,0 +1,22 @@
+  ssh-keygen -t ed25519 -C "your@mail"
+
+  cat name.pub
+
+  nano config
+
+
+#user1 account
+Host github.com-user1
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/github-user1
+   IdentitiesOnly yes
+
+#user2 account
+Host github.com-user2
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/github-user2
+   IdentitiesOnly yes
+
+
