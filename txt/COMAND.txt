@@ -1,0 +1,9 @@
+Публикуем новые версии в npm
+ npm publish
+
+
+Меняем версию этой командой
+ npm version <my version number>
+ git log
+ git push origin main
+ git push origin --tags
